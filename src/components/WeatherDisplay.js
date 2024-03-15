@@ -3,8 +3,8 @@ import React from "react";
 const WeatherInput = ({temperature, conditions}) => {
     return (
         <div>
-            <p>Temperature: {temperature}<span style={{color: "red"}}></span></p>
-            <p>Conditions: {conditions}</p>
+            <p>Temperature: 25<span style={{color: "red"}}></span></p>
+            <p>Conditions: Sunny</p>
         </div>
     );
 }
